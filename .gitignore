@@ -1,0 +1,12 @@
+# the ledger databases agents create at runtime
+*.agent-ledger.db
+*.agent-ledger.db-wal
+*.agent-ledger.db-shm
+.agent-ledger.db*
+
+# python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/
+venv/
