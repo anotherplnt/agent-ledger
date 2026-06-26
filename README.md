@@ -50,7 +50,7 @@ SQLite gives us process-safe writes, so concurrent claims are atomic. If twenty 
 Clone it and put `ledger.py` somewhere on your path:
 
 ```bash
-git clone https://github.com/YOURNAME/agent-ledger.git
+git clone https://github.com/anotherplnt/agent-ledger.git
 cd agent-ledger
 chmod +x ledger.py
 sudo ln -s "$PWD/ledger.py" /usr/local/bin/ledger
